@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "nombre": "cristofer",
+    "ciudad": "Bogot\u00e1"
+  },
+  {
+    "id": "2",
+    "nombre": "Cris",
+    "ciudad": "Medell\u00edn"
+  },
+  {
+    "id": "3",
+    "nombre": "cristian",
+    "ciudad": "Bogot\u00e1"
+  },
+  {
+    "id": "4",
+    "nombre": "cristiano",
+    "ciudad": "Barranquilla"
+  },
+  {
+    "id": "5",
+    "nombre": "cristobal",
+    "ciudad": "Cartagena"
+  }
+]
