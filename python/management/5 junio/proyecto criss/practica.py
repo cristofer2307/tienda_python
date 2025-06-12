@@ -16,7 +16,7 @@ def mostrar_menu():
     print("2.generacion de numeros ganadores")
     print("3.comparacion de resultados")
     print("4.premio")
-    print("4.salir")
+    print("5.salir")
 while True:
     mostrar_menu()
     opcion = input ("introduce una opcion a realizar\n ")
@@ -26,7 +26,7 @@ while True:
         print("SI / NO")
         respuesta = input().strip().upper()
         if respuesta == "SI":
-            numero_de_boleto = random.sample(range(1,49),6)
+            numero_de_boleto = random.sample(range(1,9),6)
             print("los numeros de tu boleto son\n", numero_de_boleto)   
         else:
             numero_de_boleto = input("introduce los numeros de tu boleto separados por comas:\n")
@@ -40,7 +40,7 @@ while True:
             print("los numeros de tu boleto son\n", numero_de_boleto)
     elif opcion == "2":
         print ("los numeros ganadores son\n", numero)
-        numero = random.sample(range(1,49),6)
+        numero = random.sample(range(1,9),6)
         print (numero)
     elif opcion == "3":
         print (numero_de_boleto)
